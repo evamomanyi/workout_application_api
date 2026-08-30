@@ -366,6 +366,6 @@ curl -X POST http://127.0.0.1:5555/workouts \
 
 The request should return HTTP 400 instead of creating invalid data.
 
-#Github repository link
+## Github repository link
 
-https://github.com/evamomanyi/workout_application_api
+  https://github.com/evamomanyi/workout_application_api
