@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import CheckConstraint, UniqueConstraint
 from sqlalchemy.orm import validates
 
-db = SQLAlchemy(
+db = SQLAlchemy()
 
 
 class Exercise(db.Model):
@@ -176,3 +176,5 @@ class WorkoutExercise(db.Model):
         if include_exercise:
             data["exercise"] = self.exercise.to_dict()
         return data
+
+
