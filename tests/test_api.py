@@ -1,6 +1,6 @@
 from datetime import date
 
-import 
+import pytest
 
 from app import app
 from models import db, Exercise, Workout
