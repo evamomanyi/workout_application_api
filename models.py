@@ -176,3 +176,5 @@ class WorkoutExercise(db.Model):
         if include_exercise:
             data["exercise"] = self.exercise.to_dict()
         return data
+
+
